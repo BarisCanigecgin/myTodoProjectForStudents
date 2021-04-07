@@ -1,0 +1,41 @@
+<!--BARIŞ  CANIGEÇGİN TARAFINDAN KENDİNİ GELİŞTİRMEYE ÇALIŞAN İNSANLAR İÇİN HAZIRLANMIŞ ve GÜNCELLENMEKTEDİR.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="page-title-container">
+            <h1 class="page-title">My ToDo Project</h1>
+        </div>
+        
+        <div class="create-todo">
+            <div class="create-todo-title">
+                <h2>Create New Task</h2>
+            </div>
+                <form id="create-input">
+                     <input placeholder="add a new task.." type="text" name="" id="toDoName">
+                     <button type="submit">+</button>
+                </form>           
+        </div>
+        <div class="uyari-container"></div>
+        <div class="create-todo">
+            <div class="create-todo-title">
+                <h2>Task List</h2>
+                <a href="#" class="btnAllDelete">Delete All Task</a>
+            </div>
+            <ul id="task-list">
+                <li class="task-item"><h4>Go to meet Kemal</h4><i class="fas fa-times"></i></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
